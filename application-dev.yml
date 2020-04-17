@@ -13,10 +13,10 @@ spring:
   application:
     name: springcloud-config-server-dev
 ---
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:7001/eureka/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
 server:
   port: 13002
 spring:
